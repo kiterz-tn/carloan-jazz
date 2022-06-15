@@ -337,7 +337,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0078ff;
+  background: #3e175d;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -468,9 +468,11 @@ a:hover {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  background-color: #140316;
+  background-color: #fff;
   z-index: 997;
-  padding: 20px 0;
+  padding: 10px 0 0 0;
+  border-bottom: 1px solid #ebebeb;
+  box-shadow: 0 -14px 25px #652796;
 }
 #header .logo {
   font-size: 28px;
@@ -481,7 +483,8 @@ a:hover {
   letter-spacing: 1px;
 }
 #header .logo a {
-  color: #fff;
+  color: #652796;
+  text-align: left;
 }
 #header .logo img {
   max-height: 40px;
@@ -704,7 +707,7 @@ a:hover {
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  height: 100vh;
+  height: 5vh;
   position: relative;
   color: #fff;
 }
@@ -1548,7 +1551,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #030b16;
+  background: #652796;
 }
 footer .copyright {
   margin-bottom: 0.3rem;
@@ -1805,7 +1808,7 @@ th {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #140316;
+    background: #652796;
     z-index: 999;
 }
 #loader {
